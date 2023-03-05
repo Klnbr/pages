@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="PHENOMENAL.css">
+    <style>
+         * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .picabout {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            margin-top: -30px;
+            border-radius: 30px;
+        }
+        .picabout img {
+            width: 50%;
+            margin: auto;
+        }
+
+        .col_about_2 p {
+            font-family: 'Mitr', sans-serif;
+            padding: 0 60px;
+           
+        }
+
+        .picteam img {
+            box-sizing: border-box;
+            border-radius: 50%;
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        legend {
+            padding: 20px;
+            text-align: center;
+            text-decoration: underline;
+            color: #551A8B;
+        }
+        fieldset{ margin-top: -50px;
+            border-color: rebeccapurple;
+        }
+
+        h2 {
+            font-family: 'Mitr', sans-serif;
+            text-align:center ;
+        }
+
+        h3 {
+            text-decoration: underline;
+            font-family: 'Mitr', sans-serif;
+        }
+
+        hr {
+            height: 3px;
+            width: 70%;
+            margin: auto;
+            background-color: black;
+        }
+
+        .row_team {
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .infoteam {
+            width: 50%;
+            text-align: center;
+        }
+
+        .dt-team p {
+            font-family: 'Mitr', sans-serif;
+        }
+        @media screen and (max-width: 1024px){
+            .row_about {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin: auto;
+        }
+
+        .col_about_2 {
+            width: 50%;
+            padding: 0px;
+            margin:40px -30px;
+        }
+
+        .picabout {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+        }
+        .picabout img {
+            width: 60%;
+            margin: auto;
+        }
+
+        .col_about_2 p {
+            font-family: 'Mitr', sans-serif;
+            padding: 0 60px;
+           
+        }
+
+        .picteam img {
+            box-sizing: border-box;
+            border-radius: 50%;
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        legend {
+            font-size: 10px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: underline;
+            color: #551A8B;
+        }
+        fieldset{ margin-top: -50px;
+            border-color: rebeccapurple;
+        }
+
+        }
+        @media screen and (max-width: 775px){
+        .row_about {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: auto;
+        }
+
+        .col_about_2 {
+            width: 100%;
+            margin: auto;
+            margin-top: 60px;
+            margin-bottom: 30px;
+        }
+
+        .picabout {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .picabout img {
+            width: 60%;
+            margin: auto;
+        }
+
+        .col_about_2 p {
+            font-family: 'Mitr', sans-serif;
+            padding: 0 60px;
+           
+        }
+
+        .picteam img {
+            box-sizing: border-box;
+            border-radius: 50%;
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        legend {
+            font-size: 10px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: underline;
+            color: #551A8B;
+        }
+
+
+        }
+        @media screen and (max-width: 576px){
+
+        .picabout {
+            width: 100%;
+        }
+        .picabout img {
+            width: 70%;
+            margin: auto;
+        }
+
+        .picteam img {
+            box-sizing: border-box;
+            border-radius: 50%;
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+
+        legend {
+            font-size: 10px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: underline;
+            color: #551A8B;
+        }
+        fieldset{ 
+            margin: auto;
+            border-color: rebeccapurple;
+        }
+        .row_team {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .infoteam {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="../index.html">PHENOMENAL</a></div>
+        <div class="navs">
+            <ul>
+                <li><a href="../index.html">หน้าแรก</a></li>
+                <li>
+                    <a href="../category.html">หมวดหมู่</a>
+                    <ul class="category">
+                        <li>
+                            <a href="./shirt.html">เสื้อ</a>
+                            <ul class="category2">
+                                <li><a href="./shirt/short_sleeve_shirt.html">เสื้อแขนสั้น</a></li>
+                                <li><a href="./shirt/long_sleeved_shirt.html">เสื้อแขนยาว</a></li>
+                                <li><a href="./shirt/off_shoulder_shirt.html">เสื้อเปิดไหล่</a></li>
+                                <li><a href="./shirt/tank_top.html">เสื้อกล้าม</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./pants.html">กางเกง</a>
+                            <ul class="category2">
+                                <li><a href="./pants/long_pants.html">กางเกงขายาว</a></li>
+                                <li><a href="./pants/short_pants.html">กางเกงขาสั้น</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./dress.html">เดรส</a>
+                            <ul class="category2">
+                                <li><a href="./dress/long_dress.html">เดรสยาว</a></li>
+                                <li><a href="./dress/short_dress.html">เดรสสั้น</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./skirt.html">กระโปรง</a></li>
+                        <li><a href="./set.html">เซท</a></li>
+                        <li><a href="./shoes.html">รองเท้า</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">สไตล์</a>
+                    <ul class="category">
+                        <li><a href="#">น่ารัก</a></li>
+                        <li><a href="#">เรียบง่าย</a></li>
+                        <li><a href="#">หรูหรา</a></li>
+                        <li><a href="#">เท่ๆ คูลๆ</a></li>
+                    </ul>
+                </li>
+                <li><a href="./store_ig.html">รวมร้าน</a></li>
+                <li><a href="./about.html" class="active">เกี่ยวกับเรา</a></li>
+                <li><a href="./contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="breadcrump">
+        <a href="./index.html">หน้าแรก</a> &gt; เกี่ยวกับเรา
+    </div>
+    <div class="ab">
+        <div class="container">
+            <div class="row_about">
+                <div class="picabout">
+                    <img src="./img/ab.jpg" alt="cloth">
+                </div>
+                <div class="col_about_2">
+                    <fieldset>
+                        <legend>
+                            <h1>PHENOMENAL</h1>
+                        </legend>
+                        <p>เราคือเว็บไซต์แนะนำเสื้อผ้าแบรนด์ไทย
+                            ให้สำหรับคนที่ชื่นชอบการแต่งตัวได้สนับสนุนร้านเสื้อผ้าแบรนด์ไทย
+                            เว็บไซต์ของเราสร้างขึ้นเพื่อรวบรวมร้านเสื้อผ้าแบรนด์ไทยมาเผยแพร่ให้เป็นที่รู้จักมากขึ้น
+                            สามารถให้ผู้เยี่ยมชมหาร้านเสื้อผ้าแบรนด์ไทยจากหมวดหมู่ต่างๆได้
+                            และสามารถดูร้านแบรนด์ไทยที่แนะนำทั้งหมดที่รวบรวมไว้ในเมนูรวมร้านได้
+                            สนับสนุนเครื่องแต่งกายแบรนด์ไทย เพื่อยกระดับดีไซเนอร์ไทยสู่ระดับโลก
+                        </p><br><br>
+                    </fieldset>
+                </div>
+            </div>
+            <hr><br><br><br>
+
+
+            <h2>ทีมของเรา</h2>
+
+            <div class="row_team">
+                <br>
+                <div class="infoteam">
+                    <div class="picteam">
+                        <img src="./img/ap.jpg" alt="Auntima Phalabud">
+                    </div>
+                    <div class="dt-team">
+                        <br>
+                        <h3>นางสาวอัญธิมา ผาละบุตร</h3>
+                        <p style="text-indent:0 ;">อีเมลล์ : Auntima.p@kkumail.com<br>
+                            สาขาวิชา เทคโนโลยีสารสนเทศ<br>
+                            คณะ วิทยาลัยการคอมพิวเตอร์<br>
+                            มหาวิทยาลัยขอนแก่น
+                        </p>
+                    </div>
+                </div>
+
+                <div class="infoteam">
+                    <div class="picteam">
+                        <img src="./img/kb.jpg" alt="Kanlayanee Boonrin">
+                    </div>
+                    <div class="dt-team">
+                        <br>
+                        <h3>นางสาวกัลยาณี บุญรินทร์</h3>
+                        <p style="text-indent:0 ;">อีเมลล์ : Kanlayanee.bo@kkumail.com<br>
+                            สาขาวิชา เทคโนโลยีสารสนเทศ<br>
+                            คณะ วิทยาลัยการคอมพิวเตอร์<br>
+                            มหาวิทยาลัยขอนแก่น
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <br><br>
+        <div class="box-info">
+
+            <div class="ft-info">
+                <div id="ft-name"
+                    style="width: 90%; height: 20px; border-bottom: 1px solid white; text-align: center;margin: auto;">
+                    <span>
+                        PHENOMENAL
+                    </span>
+                </div>
+                <ul style="margin-top: 30px;">
+                    <li><a>
+                            เว็บไซต์ของเราสร้างขึ้นเพื่อรวบรวมร้านเสื้อผ้าแบรนด์ไทยมาเผยแพร่ให้เป็นที่รู้จักมากขึ้น
+                            สามารถให้ผู้เยี่ยมชมหาร้านเสื้อผ้าแบรนด์ไทยจากหมวดหมู่ต่างๆได้
+                            เพื่อสนับสนุนเครื่องแต่งกายแบรนด์ไทย และยกระดับดีไซเนอร์ไทยสู่ระดับโลก
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="ft-info">
+                <p>เมนู</p><br>
+                <ul>
+                    <li><a>หน้าแรก</a></li>
+                    <li><a>การแนะนำ</a></li>
+                    <li><a>รวมแบรนด์</a></li>
+                    <li><a>ข่าวสาร</a></li>
+                    <li><a>ติดต่อเรา</a></li>
+                    <li><a>เกี่ยวกับเรา</a></li>
+                </ul>
+            </div>
+
+            <div class="ft-info">
+                <p>ติดต่อ</p><br>
+                <ul>
+                    <li>E-MAIL : PHENO@MENAL.CO.TH</li>
+                    <li>TEL : 02222222</li>
+                    <!-- <br><br><br><br><br><br><br> -->
+                </ul>
+            </div>
+        </div><br>
+        <hr style="width: 70%;margin:auto;background-color: white;border-color: white;">
+        <br>Copyright(C) : PHENOMENAL
+    </footer>
+</body>
+
+</html>
