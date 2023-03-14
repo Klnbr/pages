@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* font-family: 'Righteous', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* font-family: 'Permanent Marker', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* font-family: 'Press Start 2P', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+/* font-family: 'Carter One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+/* font-family: 'Rubik Mono One', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+/* font-family: 'Sigmar One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/* font-family: 'Black Ops One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+/* font-family: 'Ruslan Display', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+/* font-family: 'Saira Stencil One', cursive; */
+
+/* th fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+/* font-family: 'Chakra Petch', sans-serif; */
+body {
+    background-image: url('image/galaxy-night-view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.welcome {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    position: fixed;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 20px 80px;
+    background: linear-gradient(rgb(10, 10, 77),rgb(61, 3, 56));
+    border-style: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Rubik Mono One', sans-serif;
+    box-shadow: 0.5px 0.5px 6px rgb(186, 61, 175);
+    color: rgb(224, 232, 239);
+}
+
+button:hover {
+    font-size: 22px;
+    transition: all 0.1s;
+}
+
+.gh {
+    width: 600px;
+    color: aliceblue;
+    font-family: 'Chakra Petch', sans-serif;
+    display: inline-block;
+    margin-top: 38%;
+    margin-left: 3%;
+}
+
+.cf {
+    width: 600px;
+    color: aliceblue;
+    font-family: 'Chakra Petch', sans-serif;
+    display: inline-block;
+    margin-top: 37%;
+    float: right;
+    margin-right: 3%;
+    text-align: end;
+}
